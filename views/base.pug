@@ -1,0 +1,28 @@
+doctype html 
+html 
+    head 
+        block head
+            meta(charset="UTF-8")
+            meta(name="viewport" content="width=device-width, initial-scale=1.0")
+            title Natours | #{title}
+            link(rel="stylesheet", href="/css/style.css")
+            link(rel="shortcut icon", type="/image/png" href="/img/favicon.png")
+            link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Lato:300,300i,700")
+              
+    body
+        include header
+ 
+
+
+        block content 
+            h1 this is a place holder heading
+
+        include _footer
+
+        
+         
+        //- script(type="module" src="https://unpkg.com/axios@1.6.7/dist/axios.min.js") 
+        script(type="module" src="/js/bundle.js") 
+      
+        
+        
